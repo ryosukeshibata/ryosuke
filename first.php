@@ -1,8 +1,8 @@
 <?php
   //練習問題1
   //文字列連結を用いて、自分の名前をブラウザ上に表示する。
-  $first_name = '';
-  $last_name = '';
+  $first_name = 'Ryosuke';
+  $last_name = 'Shibata';
 
   //練習問題2
   //以下の計算をそれぞれ行い、ブラウザ上に表示する。

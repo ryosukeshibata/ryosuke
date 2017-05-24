@@ -3,7 +3,8 @@
   //文字列連結を用いて、自分の名前をブラウザ上に表示する。
   $first_name = 'Ryosuke';
   $last_name = 'Shibata';
-
+  echo $first_name;
+  echo $last_name;
   //練習問題2
   //以下の計算をそれぞれ行い、ブラウザ上に表示する。
   //8 * 3の計算

@@ -138,7 +138,9 @@
   //この行列を表す配列を用いて、行列の計算を行いなさい。
   echo '<img src="./assets/img/matrix1.png">';
   $matrix = array(10, -20, 12, 6);
-
+  $det = $matrix[0]*$matrix[3]-$matrix[1]*$matrix[2];
+  echo $det;
+  echo "<br>";
   //課題4
   //自己紹介
   //練習問題5を参考にして、自己紹介をせよ。

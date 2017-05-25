@@ -22,18 +22,22 @@
   //※自己代入演算子を用いること
   $var = 2;
   //$varに12を足す
-
+  $var += 12;
+  echo $var;
   //$varに7で割る
-
+  $var /= 7;
+  echo $var;
   //$varに5を掛ける
-
+  $var *= 5;
+  echo $var;
   //$varの3の剰余
-
+  $var %= 3;
+  echo $var; echo "<br>";
   //練習問題4
   //配列内に、伊達、櫻井、伊藤、藤尾を入れて、ブラウザ上にそれぞれを表示せよ。
-  $list = array();
-  echo '';
-
+  $list = array('伊達','櫻井','伊藤','藤尾');
+  echo $list[0]; echo $list[1]; echo $list[2]; echo $list[3];
+  echo "<br>";
   //練習問題5
   //連想配列内に、nameキーに'櫻井'、ageキーに'22'、placeキーに'富山'を入力して、ブラウザ上にそれぞれを表示せよ。
   $lists = array();

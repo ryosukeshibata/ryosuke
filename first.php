@@ -111,7 +111,9 @@
   //以下の配列を表示せよ。(1つずつ改行して表示せよ)
   //この問題にはforeachを用いること
   $food = array('carry', 'onigiri', 'candy', 'ham', 'meet', 'rice');
-
+ foreach ($food as $value) {
+   echo $value."<br>";
+ }
   //課題1
   //西暦の計算
   //以下の配列に2つの西暦a, bがあります。その2つのaからbが何年間か出力しなさい。

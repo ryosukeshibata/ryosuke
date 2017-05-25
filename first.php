@@ -118,21 +118,25 @@
   //西暦の計算
   //以下の配列に2つの西暦a, bがあります。その2つのaからbが何年間か出力しなさい。
   $year = array(1994, 2017);
+  echo $year[1]-$year[0]."<br>";
 
   //課題2
   //かまくらづくり
   //櫻井がはしゃいでかまくらを作り始めました。どれだけの体積の雪が必要か計算しなさい。
   //そのかまくらは四角形であり、以下の配列に外側の1辺と内側の1辺の長さが入っている。(r1 > r2)
   //下の行のecho文のコメントを外すとimageが出てくるのでこちらも参照するとわかりやすい。
-  //echo '<img src="./assets/img/img1.png">';
+  echo '<img src="./assets/img/img1.png">';
   $size = array(6, 4);
-
+  $size_r1 = $size[0]*$size[0]*$size[0];
+  $size_r2 = $size[1]*$size[1]*$size[1];
+  $V =$size_r1 -$size_r2;
+  echo $V."<br>";
   //課題3
   //行列の計算
   //まず、以下のecho文のコメントをはずしてください。
   //以下の配列内にa = 10, b = -20, c = 12, d = 6がそれぞれ代入されている。
   //この行列を表す配列を用いて、行列の計算を行いなさい。
-  //echo '<img src="./assets/img/matrix1.png">';
+  echo '<img src="./assets/img/matrix1.png">';
   $matrix = array(10, -20, 12, 6);
 
   //課題4

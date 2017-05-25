@@ -3,8 +3,7 @@
   //文字列連結を用いて、自分の名前をブラウザ上に表示する。
   $first_name = 'Ryosuke';
   $last_name = 'Shibata';
-  echo $first_name;
-  echo $last_name; echo "<br>";
+  echo $first_name.$last_name; echo "<br>";
   //練習問題2
   //以下の計算をそれぞれ行い、ブラウザ上に表示する。
   //8 * 3の計算
@@ -186,6 +185,7 @@
   //ちなみに、今シンガポールで22:38なので、東京では0:38である。
   //for, ifのみ用いること
   $jisa = array(6, array('tokyo', 9), array('beijing', 8), array('singapore', 7), array('london', 0), array('newyork', -5), array('singapore', '22:38'));
-  //print_r($jisa);
+
+  print_r($jisa);
 
 ?>

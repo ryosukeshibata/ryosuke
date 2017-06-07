@@ -329,6 +329,12 @@ sukoa($score);
 }
   //課題7.10
   //練習問題10の関数化
+  function hairetu($food){
+  foreach($food as $value){
+    echo $value . "<br>";
+  }
+  echo "<br>";
+}
 
   //課題7.11
   //課題1の関数化

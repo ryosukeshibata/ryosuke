@@ -249,15 +249,22 @@ function ram($a,$b){
   //課題7.4
   //練習問題4の関数化
   $list = array('伊達', '櫻井', '伊藤', '藤尾');
-
+  function list($list){
   echo $list[0] . "<br>";
   echo $list[1] . "<br>";
   echo $list[2] . "<br>";
   echo $list[3] . "<br>";
   echo "<br>";
+}
   //課題7.5
   //練習問題5の関数化
-
+  $lists = array('name' => '櫻井', 'age' => '22', 'place' => '富山');
+  function risuto($list){
+    echo $lists['name'] . "<br>";
+  echo $lists['age'] . "<br>";
+  echo $lists['place'] . "<br>";
+  echo "<br>";
+}
   //課題7.6
   //練習問題6の関数化
 

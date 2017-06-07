@@ -231,6 +231,7 @@ function ram($a,$b){
   //課題7.3
   //練習問題3の関数化
   //$varに12を足
+  $var = 2;
   function ziko($var){
       $var += 12;
       echo $var . "<br>";
@@ -247,7 +248,13 @@ function ram($a,$b){
     }
   //課題7.4
   //練習問題4の関数化
+  $list = array('伊達', '櫻井', '伊藤', '藤尾');
 
+  echo $list[0] . "<br>";
+  echo $list[1] . "<br>";
+  echo $list[2] . "<br>";
+  echo $list[3] . "<br>";
+  echo "<br>";
   //課題7.5
   //練習問題5の関数化
 

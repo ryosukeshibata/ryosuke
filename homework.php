@@ -201,18 +201,33 @@
   //課題7
   //練習問題1~10と課題1~5を関数化せよ。
 
-  function rensyu1($last_name, $first_name){
-  echo $last_name . " " . $first_name . "<br>";
-  echo "<br>";
-}
-rensyu1('Ankyu', 'Masakazu');
+
 
   //課題7.1
   //練習問題1の関数化
-
+  function rensyu1($last_name, $first_name){
+  echo $last_name . " " . $first_name . "<br>";
+  echo "<br>";
+  }
+  rensyu1('Ankyu', 'Masakazu');
   //課題7.2
   //練習問題2の関数化
-
+function kuros($a,$b){
+  echo $a * $b . "<br>";
+}
+function div($a,$b){
+  echo $a / $b . "<br>";
+}
+function plus($a,$b){
+  echo $a + $b . "<br>";
+}
+function mainas($a,$b){
+  echo $a - $b . "<br>";
+}
+function ram($a,$b){
+  echo $a % $b . "<br>";
+}
+  echo  "<br>";
   //課題7.3
   //練習問題3の関数化
 

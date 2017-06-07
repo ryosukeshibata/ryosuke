@@ -185,7 +185,8 @@
   //ちなみに、今シンガポールで22:38なので、東京では0:38である。
   //for, ifのみ用いること
   $jisa = array(6, array('tokyo', 9), array('beijing', 8), array('singapore', 7), array('london', 0), array('newyork', -5), array('singapore', '22:38'));
-
-  print_r($jisa);
-
+  for ($i=1; $i <4 ; $i++) {
+    print_r($jisa[$i][1]);
+//  print_r($jisa);
+}
 ?>

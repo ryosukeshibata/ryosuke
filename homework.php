@@ -284,7 +284,31 @@ function try($a,$b,$c){
 try($a,$b,$c);
   //課題7.7
   //練習問題7の関数化
-
+  $score = 3;
+  function sukoa($score){
+  switch($score){
+    case 5:
+      echo 'A' . "<br>";
+      break;
+    case 4:
+      echo 'B' . "<br>";
+      break;
+    case 3:
+      echo 'C' . "<br>";
+      break;
+    case 2:
+      echo 'D' . "<br>";
+      break;
+    case 1:
+      echo 'E' . "<br>";
+      break;
+    default:
+      echo '正しい成績を入力してください。' . "<br>";
+      break;
+  }
+  echo "<br>";
+}
+sukoa($score);
   //課題7.8
   //練習問題8の関数化
 

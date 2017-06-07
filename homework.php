@@ -256,6 +256,7 @@ function ram($a,$b){
   echo $list[3] . "<br>";
   echo "<br>";
 }
+list($list);
   //課題7.5
   //練習問題5の関数化
   $lists = array('name' => '櫻井', 'age' => '22', 'place' => '富山');
@@ -265,9 +266,22 @@ function ram($a,$b){
   echo $lists['place'] . "<br>";
   echo "<br>";
 }
+risuto($list);
+
   //課題7.6
   //練習問題6の関数化
-
+  $a = 2;
+  $b = 3;
+  $c = 4;
+function try($a,$b,$c){
+  if($a + $b > $c){
+    echo '可能' . "<br>";
+  }else{
+    echo '不可能' . "<br>";
+  }
+  echo "<br>";
+}
+try($a,$b,$c);
   //課題7.7
   //練習問題7の関数化
 

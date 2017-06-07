@@ -321,7 +321,12 @@ sukoa($score);
 
   //課題7.9
   //練習問題9の関数化
-
+  function kuros_a($a,$b){
+  for($i = $a; $i <= $b; $i++){
+    echo $i*5 . ' ';
+  }
+  echo "<br>";
+}
   //課題7.10
   //練習問題10の関数化
 

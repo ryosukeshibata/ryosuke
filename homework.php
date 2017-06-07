@@ -230,7 +230,21 @@ function ram($a,$b){
   echo  "<br>";
   //課題7.3
   //練習問題3の関数化
-
+  //$varに12を足
+  function ziko($var){
+      $var += 12;
+      echo $var . "<br>";
+  //$varに7で割る
+      $var /= 7;
+      echo $var . "<br>";
+  //$varに5を掛ける
+      $var *= 5;
+      echo $var . "<br>";
+  //$varの3の剰余
+      $var %= 3;
+      echo $var . "<br>";
+      echo "<br>";
+    }
   //課題7.4
   //練習問題4の関数化
 

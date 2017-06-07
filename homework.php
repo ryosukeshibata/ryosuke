@@ -311,6 +311,13 @@ try($a,$b,$c);
 sukoa($score);
   //課題7.8
   //練習問題8の関数化
+  function kaunnto($i){
+  while($i > 0){
+    echo $i . "<br>";
+    $i--;
+  }
+  echo "<br>";
+}
 
   //課題7.9
   //練習問題9の関数化

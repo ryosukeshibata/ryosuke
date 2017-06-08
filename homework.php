@@ -359,7 +359,14 @@ kamakura(1,6);
   //課題2の関数化
   //課題7.13
   //課題3の関数化
-
+  echo "<br>";
+  function det($a, $b, $c, $d){
+  $matrix = array($a, $b, $c, $d);
+  $cal_mat = $matrix[0] * $matrix[3] - $matrix[1] * $matrix[2];
+  echo $cal_mat . "<br>";
+  echo "<br>";
+}
+det(10, -20, 12, 6);
   //課題7.14
   //課題4の関数化
 

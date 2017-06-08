@@ -338,7 +338,13 @@ sukoa($score);
 
   //課題7.11
   //課題1の関数化
-
+  $year = array(1994, 2017);
+  function sen($year){
+  $dif = $year[1] - $year[0];
+  echo $dif . "<br>";
+  echo "<br>";
+}
+sen($year);
   //課題7.12
 
   //課題2の関数化
@@ -389,5 +395,5 @@ sukoa($score);
   //DELETE
   //課題8.11
   //membersテーブルの課題8.9で追加したデータの削除
-/*>>>>>>> e5b357e57410d503fed986aa4a3280042bcbbad4:homework.php*/
+/*>>>>>s>> e5b357e57410d503fed986aa4a3280042bcbbad4:homework.php*/
 ?>

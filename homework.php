@@ -346,7 +346,16 @@ sukoa($score);
 }
 sen($year);
   //課題7.12
-
+  echo "<br>";
+  function kamakura($a,$b){
+  $size = array($a, $b);
+  $out = $size[0] * $size[0] * $size[0];
+  $in = $size[1] * $size[1] * $size[1];
+  $v = $out - $in;
+  echo $v . "<br>";
+  echo "<br>";
+}
+kamakura(1,6);
   //課題2の関数化
   //課題7.13
   //課題3の関数化

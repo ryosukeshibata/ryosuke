@@ -290,5 +290,5 @@ rensyu1('Ankyu', 'Masakazu');
   //DELETE
   //課題8.11
   //membersテーブルの課題8.9で追加したデータの削除
-/*>>>>>>> e5b357e57410d503fed986aa4a3280042bcbbad4:homework.php*/
+  
 ?>

@@ -391,7 +391,16 @@ introduction($abc);
 
   //課題7.15
   //課題5の関数化
-
+  hyaku(){
+  for($i = 1; $i <= 100; $i++){
+    echo $i . ' ';
+    if($i % 10 == 0){
+      echo "<br>";
+    }
+  }
+  echo "<br>";
+}
+hyaku();
   //課題8
   //以下のSQL問題を解け(SQL文のみ)
   //SELECT

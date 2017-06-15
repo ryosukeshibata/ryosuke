@@ -198,6 +198,14 @@
 }
 //  print_r($jisa);
 
+
+
+
+
+
+
+
+
   //課題7
   //練習問題1~10と課題1~5を関数化せよ。
 
@@ -215,23 +223,27 @@
 function kuros($a,$b){
   echo $a * $b . "<br>";
 }
+kuros(1,2);
 function div($a,$b){
   echo $a / $b . "<br>";
 }
+div(5,7);
 function plus($a,$b){
   echo $a + $b . "<br>";
 }
+plus(3,4);
 function mainas($a,$b){
   echo $a - $b . "<br>";
 }
+plus(5,2);
 function ram($a,$b){
   echo $a % $b . "<br>";
 }
+ram(3,4);
   echo  "<br>";
   //課題7.3
   //練習問題3の関数化
   //$varに12を足
-  $var = 2;
   function ziko($var){
       $var += 12;
       echo $var . "<br>";
@@ -246,17 +258,18 @@ function ram($a,$b){
       echo $var . "<br>";
       echo "<br>";
     }
+    ziko(4);
   //課題7.4
   //練習問題4の関数化
-  $list = array('伊達', '櫻井', '伊藤', '藤尾');
-  function list($list){
+  $name = array('伊達', '櫻井', '伊藤', '藤尾');
+  function youso($list){
   echo $list[0] . "<br>";
   echo $list[1] . "<br>";
   echo $list[2] . "<br>";
   echo $list[3] . "<br>";
   echo "<br>";
 }
-list($list);
+youso($name);
   //課題7.5
   //練習問題5の関数化
   $lists = array('name' => '櫻井', 'age' => '22', 'place' => '富山');
@@ -270,10 +283,7 @@ risuto($list);
 
   //課題7.6
   //練習問題6の関数化
-  $a = 2;
-  $b = 3;
-  $c = 4;
-function try($a,$b,$c){
+function sankaku($a,$b,$c){
   if($a + $b > $c){
     echo '可能' . "<br>";
   }else{
@@ -281,10 +291,9 @@ function try($a,$b,$c){
   }
   echo "<br>";
 }
-try($a,$b,$c);
-  //課題7.7
+sankaku(3,4,5);
   //練習問題7の関数化
-  $score = 3;
+  //課題7.7
   function sukoa($score){
   switch($score){
     case 5:
@@ -308,7 +317,7 @@ try($a,$b,$c);
   }
   echo "<br>";
 }
-sukoa($score);
+sukoa(3);
   //課題7.8
   //練習問題8の関数化
   function kaunnto($i){
@@ -318,6 +327,7 @@ sukoa($score);
   }
   echo "<br>";
 }
+kaunnto(10);
 
   //課題7.9
   //練習問題9の関数化
@@ -327,6 +337,7 @@ sukoa($score);
   }
   echo "<br>";
 }
+kuros_a(4,6);
   //課題7.10
   //練習問題10の関数化
   function hairetu($food){
@@ -338,13 +349,13 @@ sukoa($score);
 
   //課題7.11
   //課題1の関数化
-  $year = array(1994, 2017);
+  $years = array(1994, 2017);
   function sen($year){
   $dif = $year[1] - $year[0];
   echo $dif . "<br>";
   echo "<br>";
 }
-sen($year);
+sen($years);
   //課題7.12
   echo "<br>";
   function kamakura($a,$b){
@@ -369,6 +380,14 @@ kamakura(1,6);
 det(10, -20, 12, 6);
   //課題7.14
   //課題4の関数化
+  $abc = array('name' => '安久昌和', 'locate' => '石川県', 'age' => '22', 'hobby' => 'バスケットボール', 'major' => '電子・情報工学科');
+function introduction($me){
+  echo '私は、' . $me['name'] . 'です。' . "<br>";
+  echo '出身は' . $me['locate'] . 'で、年齢は' . $me['age'] . '歳、趣味は' . $me['hobby'] . 'です。' . "<br>";
+  echo $me['major'] . 'に所属しています。' . "<br>";
+  echo "<br>";
+}
+introduction($abc);
 
   //課題7.15
   //課題5の関数化

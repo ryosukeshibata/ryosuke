@@ -406,7 +406,7 @@ hyaku();
   //SELECT
   //課題8.1
   //membersテーブルからデータの全件取得
-
+SELECT * FROM `members` WHERE 1
   //課題8.2
   //membersテーブルのmember_idが2のデータを取得
 
@@ -442,6 +442,6 @@ hyaku();
 <<<<<<< HEAD
 /*>>>>>s>> e5b357e57410d503fed986aa4a3280042bcbbad4:homework.php*/
 =======
-  
+
 >>>>>>> bedaf6d9fed674b232b595f66d0d94cc4796beca
 ?>

@@ -391,7 +391,7 @@ introduction($abc);
 
   //課題7.15
   //課題5の関数化
-  hyaku(){
+  function hyaku(){
   for($i = 1; $i <= 100; $i++){
     echo $i . ' ';
     if($i % 10 == 0){
@@ -406,42 +406,26 @@ hyaku();
   //SELECT
   //課題8.1
   //membersテーブルからデータの全件取得
-SELECT * FROM `members` WHERE 1
+  SELECT * FROM `members` WHERE 1
   //課題8.2
   //membersテーブルのmember_idが2のデータを取得
-
+SELECT * FROM `members` WHERE member_id=2;
   //課題8.3
   //membersテーブルのmember_nameが櫻井築のデータを取得(完全一致)
-
+SELECT * FROM `members` WHERE member_name="櫻井築";
   //課題8.4
   //membersテーブルのmember_nameに伊藤が含むデータの取得(部分一致)
-
+SELECT * FROM `members` WHERE member_name LIKE '%伊藤%';
   //課題8.5
   //membersテーブルのmember_nameが「伊藤」で始まるデータの取得(前方一致)
-
+SELECT * FROM `members` WHERE member_name LIKE '伊藤%';
   //課題8.6
   //membersテーブルのmember_nameが「裕」で終わるデータの取得(後方一致)
-
+  SELECT * FROM `members` WHERE member_name LIKE '%裕';
   //課題8.7
   //membersテーブルのmember_idが5以下のデータを取得
-
+  SELECT * FROM `members` WHERE member_id < 5;
   //課題8.8
   //membersテーブルのmember_idを降順で5件取得
 
-  //INSERT
-  //課題8.9
-  //membersテーブルに自分の名前を追加する
-
-  //UPDATE
-  //課題8.10
-  //membersテーブルのmember_idが7のデータの名前を自分の名前に変更
-
-  //DELETE
-  //課題8.11
-  //membersテーブルの課題8.9で追加したデータの削除
-<<<<<<< HEAD
-/*>>>>>s>> e5b357e57410d503fed986aa4a3280042bcbbad4:homework.php*/
-=======
-
->>>>>>> bedaf6d9fed674b232b595f66d0d94cc4796beca
 ?>
